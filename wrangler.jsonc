@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "SSNLive",
+  "main": "src/index.ts", // or your app's entry point
+  "compatibility_date": "2026-01-01",
+  "assets": {
+    "directory": ".output/public"
+  }
+}
